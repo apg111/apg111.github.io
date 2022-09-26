@@ -55,45 +55,23 @@
             </figcaption>
           </figure>
        
+          <div class="Maggie">
+       
+            <figure><img src="Maggie.jpg" width="290" height="180" alt="">
+              <figcaption>
+                <h2>Maggie</h2>
+                <p>This dog will follow you until the end of the world, specially if you have any treats.</p>
+                <p><a href="https://www.google.com/">Read More</a></p>
+                
+              </figcaption>
+            </figure>
+
+
       </section>
 
      
 
-        <div class="A">
-          
-            <figure><img src="A.jpg" width="290" height="180" alt="">
-              <figcaption>
-                <h2>A</h2>
-                <p>SGVFJSDGFJSDFJHSDG</p>
-                <p><a href="https://www.google.com/">Read More</a></p>
-              </figcaption>
-            </figure>
-       
-        </div>
 
-        <div class="B">
-         
-            <figure><img src="B.jpg" width="290" height="180" alt="">
-              <figcaption>
-                <h2>B</h2>
-                <p>SGVFJSDGFJSDFJHSDG</p>
-                <p><a href="https://www.google.com/">Read More</a></p>
-              </figcaption>
-            </figure>
-          
-        </div>
-      
-        <div class="C">
-        
-            <figure><img src="C.jpg" width="290" height="180" alt="">
-              <figcaption>
-                <h2>C</h2>
-                <p>SGVFJSDGFJSDFJHSDG</p>
-                <p><a href="https://www.google.com/">Read More</a></p>
-              </figcaption>
-            </figure>
-      
-        </div>
 </div>
 
 
