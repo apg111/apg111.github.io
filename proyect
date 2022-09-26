@@ -4,6 +4,7 @@
 <title>Rescue An Animal Foundation</title>
 
 <link rel="stylesheet" href="layout.css">
+<link rel="html" href="contact.html">
 
 </head>
 <body>
@@ -12,9 +13,9 @@
   <div class="header1"
   <h2>Rescue An Animal Foundation</h2>
 </div>
-  <a href="#contact">Contact</a>
+  <a href="contact.html">Contact</a>
   <a href="#about">About</a>
-  <a class="active" href="#home">Home</a>
+  <a class="active" href="proyect.html">Home</a>
 </div>
 
 <div class="row">
@@ -83,3 +84,4 @@
 </div>
 </body>
 </html>
+
