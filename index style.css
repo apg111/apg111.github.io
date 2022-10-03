@@ -8,10 +8,24 @@
   
   }
   
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  
   
   .topnav {
       background-color: #333;
       overflow: hidden;
+      width: 100%;
+      display: block;
     }
     .topnav a {
       float: right;
@@ -34,37 +48,40 @@
   
   
     .Toby {
-      float: left;
-      width: 33.33%;
-      padding: 5px;
+      float: center;
+      width: auto;
+      padding: auto;
+      margin: auto;
   
   
     }
   
     .Erica {
       float: center;
-      width: 33.33%;
-      padding: 5px;
+      width: auto;
+      padding: auto;
+      margin: auto;
   
     }
   
     .Spencer {
-    float: top;
-    width: 33.33%;
-    padding: 5px;
+      float: center;
+      width: auto;
+      padding: auto;
+      margin: auto;
     }
     
     .Maggie {
-        float: right;
-        width: 33.33%;
-        padding: 5px;
-        }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
+      float: center;
+      width: auto;
+      padding: auto;
+      margin: auto;
     }
-  
+
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
     
  
