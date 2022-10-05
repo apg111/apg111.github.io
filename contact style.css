@@ -1,35 +1,40 @@
 .header1 {
-  color: #f2f2f2;
+  color: white;
   text-align: left;
   padding: 15px 15px;
   text-decoration: none;
   font-size: 30px;
+  font-weight: bolder;
 
 
 }
 
 .topnav {
-  background-color: #333;
+  background-color: rgb(255, 106, 0);
   overflow: hidden;
+  width: 100%;
+  display: block;
 }
 .topnav a {
   float: right;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: orange;
   color: black;
 }
 
 .topnav a.active {
-  background-color: rgb(101, 156, 239);
-  color: white;
+  background-color: orange ;
+  color: white(4, 4, 4);
 }
+
 
 input[type=text], select, textarea {
     width: 100%; 
