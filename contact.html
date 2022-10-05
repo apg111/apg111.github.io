@@ -4,17 +4,27 @@
 <title>Rescue An Animal Foundation</title>
 
 <link rel="stylesheet" href="contact style.css">
+
+<script>
+  function submit() {
+    var myText = "Thank you for your message, we will reply shortly!";
+    alert (myText);
+  }
+
+  </script>
     
 </head>
 <body>
-    
+  
   <div class="topnav">
     <div class="header1"
     <h2>Rescue An Animal Foundation</h2>
   </div>
-    <a href="contact.html">Contact</a>
+    <a class="active" href="contact.html">Contact</a>
     <a href="#about">About</a>
-    <a class="active" href="index.html">Home</a>
+    <a href="index.html">Home</a>
+   
+    
   </div>
   
 <div class="container">
@@ -25,6 +35,9 @@
   
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="email">Email address</label>
+      <input type="text" id="fname" name="firstname" placeholder="Email address..">
   
       <label for="country">Country</label>
       <select id="country" name="country">
@@ -37,11 +50,20 @@
   
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
-      <input type="submit" value="Submit">
+      
+      
+      
+      <input type="submit"class=notranslate a href="contact.html"button onclick="submit()"</button>
+      
+      
   
     </form>
   </div>
+
+ 
+
+
+
 </body>
 </html>
     
