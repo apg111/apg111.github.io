@@ -14,18 +14,89 @@
   <h2>Rescue An Animal Foundation</h2>
 </div>
   <a href="contact.html">Contact</a>
-  <a href="#about">About</a>
+  <a href="#meetyournewBFF" id="MeetyournewBFF">Meet your new BFF</a>
+  <a href="#about" id="About">About</a>
   <a class="active" href="index.html">Home</a>
 </div>
 
+
+<div id="about">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 6.jpg" style="width: 80%" class="center">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 2.jpg" style="width:80%" class="center">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 4.jpg" style="width:80%" class="center">
+    
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 3.jpg" style="width: 80%" class="center">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 5.jpg" style="width: 80%" class="center">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="rescue 1.jpg" style="width: 80%" class="center">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+  
+  <h2>Established in 2006, The Rescue An Animal Foundation is a registered charity. We believe that every pet deserves a loving forever home therefore over the years we are proud to have worked alongside rescue and rehoming organisations across the country who strive to help pets in need find their forever loving homes.</h2>
+
+  This year we have broadened our objectives which now allows us to support charities who work alongside pets and the people who love them. We will strive to work alongside likeminded partners to support those people who benefit either through the addition of a pet or through time spent with them.
+  
+  We are passionate about helping pets and people and our work is only made possible by the incredible fundraising of this Foundation colleagues and the generosity of pet lovers who believe in our mission, so thank you! We also receive international support to be able to send some of our pets to their forever home in other countries.
+  
+  Registered Charity Number 1104152
+
+</div>
+
+<div id="meetyournewBFF">
 <div class="row">
 
-
+<h2> Meet your new BFF</h2>
       <div class="Erica">
         <div class="card">
             <div class="column">
        
-          <figure><img src="Erica.jpg" width="290" height="180" alt="">
+          <figure><img src="Erica.jpg" width="290" height="180" class="center" alt="">
             <figcaption>
               <h2>Erica</h2>
               <p>Playful dog who loves to play catch and to fight with the water hose.</p>
@@ -42,7 +113,7 @@
         <div class="card"> 
             <div class="column"> 
       
-          <figure><img src="Toby.jpg" width="290" height="180" alt="">
+          <figure><img src="Toby.jpg" width="290" height="180" class="center" alt="">
             <figcaption>
               <h2>Toby</h2>
               <p>Cutest cat who loves snuggles but also mouses, so be prepared to receive some very mindful gifts!</p>
@@ -58,7 +129,7 @@
   <div class="card">
       <div class="column">
        
-          <figure><img src="Spencer.jpg" width="290" height="180" alt="">
+          <figure><img src="Spencer.jpg" width="290" height="180" class="center" alt="">
             <figcaption>
               <h2>Spencer</h2>
               <p>This dog will follow you until the end of the world, specially if you have any treats.</p>
@@ -80,7 +151,7 @@
               <div class="row">
                 <div class="column">
        
-            <figure><img src="Maggie.jpg" width="290" height="180" alt="">
+            <figure><img src="Maggie.jpg" width="290" height="180" class="center" alt="">
               <figcaption>
                 <h2>Maggie</h2>
                 <p>This cat will scratch her way into your heart</p>
@@ -92,9 +163,41 @@
           </div>
         </div>
        </div>
-
+      </div>
 
       </section>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+
+      </script>
 
      
 

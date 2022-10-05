@@ -43,7 +43,7 @@ input[type=text], select, textarea {
   }
   
 
-  .Submit a.Submitbutton {
+  .Submit {
     background-color: blue;
     color: white;
     padding: 12px 20px;
@@ -53,7 +53,7 @@ input[type=text], select, textarea {
   }
   
  
-  .Submit a:hover {
+  .Submit :hover {
     background-color: blue;
   }
   
@@ -64,12 +64,4 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   
-  button {
-    background-color: blue;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
   
