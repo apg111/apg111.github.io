@@ -199,9 +199,11 @@ margin: 5px ;
 
         
         .button {
-          background-color: black;
           -webkit-border-radius: 10px;
-          border-radius: 10px;
+          margin-right:auto;
+          margin-left: auto;
+          margin-bottom: 20px;
+          margin-top: 20px;
           border: none;
           color: #FFFFFF;
           cursor: pointer;
@@ -212,6 +214,10 @@ margin: 5px ;
           text-align: center;
           text-decoration: none;
           -webkit-animation: glowing 1500ms infinite;
+          display:flex;
+          align-items: center;
+          justify-content: center;
+          width: 250px;
           
         }
         @-webkit-keyframes glowing {
