@@ -43,7 +43,7 @@ input[type=text], select, textarea {
   }
   
 
-  input[type=submit] {
+  a.Submit {
     background-color: blue;
     color: white;
     padding: 12px 20px;
@@ -53,7 +53,7 @@ input[type=text], select, textarea {
   }
   
  
-  input[type=submit]:hover {
+  a.Submit :hover {
     background-color: blue;
   }
   
