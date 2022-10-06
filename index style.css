@@ -132,9 +132,9 @@ font-family:'Franklin Gothic';
           max-width: 100%;
           position: center;
           margin-top: 20px;
-          margin-left: 20px;
-          margin-right: 20px;
-          margin-bottom: 20px;
+          margin-left: 160px;
+          margin-right: 0px;
+          margin-bottom: 0px;
         
         }
     
@@ -147,32 +147,58 @@ font-family:'Franklin Gothic';
           cursor: pointer;
           position: absolute;
           top: 50%;
-          width: auto;
+          width: 50px;
           margin-top: -22px;
           padding: 16px;
-          color: black;
+          color: darkorange;
           font-weight: bold;
           font-family:'Franklin Gothic';
           font-size: 18px;
           transition: 0.6s ease;
           border-radius: 0 3px 3px 0;
           user-select: none;
+          margin-left: 170px;
+          margin-right: 170px;
+          margin-bottom: 0px;
+        
         }
         
        
 
         .next {
           right: 0;
-           
-          border-radius: 20px  ;
+          border-radius: 20px ;
+          background-color: rgba(255, 160, 122, 0.405) ;
+        
+        
         }
+        
         
         .prev {
           left: 0;
           
           border-radius: 20px ;
+
+          background-color: rgba(255, 160, 122, 0.405) ;
+          
+        
         }
         
+        .next:hover {
+
+          color: rgb(255, 255, 255);
+          background-color: lightsalmon;
+          padding: 20px;
+
+        }
+
+        .prev:hover {
+
+          color: rgb(255, 255, 255);
+          background-color: lightsalmon;
+          padding: 20px;
+          
+        }
         
         .text {
           color: #f2f2f2;
