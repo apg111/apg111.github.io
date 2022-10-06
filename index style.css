@@ -1,3 +1,5 @@
+
+
 .header1 {
     color: white;
     text-align: left;
@@ -5,6 +7,7 @@
     text-decoration: none;
     font-size: 30px;
     font-weight: bolder;
+    font-family:'Franklin Gothic';
   
   
   }
@@ -15,6 +18,7 @@
     margin-left: 20px;
     margin-top: 20px;
     text-align: center;
+    font-family:'Franklin Gothic';
   }
 
  
@@ -47,6 +51,7 @@
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+      font-family:'Franklin Gothic';
       
     }
     
@@ -60,7 +65,10 @@
       color: white(4, 4, 4);
     }
 
-    
+    .blurb {
+
+      font-family:'Franklin Gothic';
+    }
    
   
     .Toby {
@@ -68,6 +76,7 @@
       width: auto;
       padding: auto;
       margin: auto;
+      font-family:'Franklin Gothic';
   
   
     }
@@ -77,14 +86,17 @@
       width: auto;
       padding: auto;
       margin: auto;
+      font-family:'Franklin Gothic';
   
     }
+  
   
     .Spencer {
       float: center;
       width: auto;
       padding: auto;
       margin: auto;
+      font-family:'Franklin Gothic';
     }
     
     .Maggie {
@@ -92,11 +104,13 @@
       width: auto;
       padding: auto;
       margin: auto;
+      font-family:'Franklin Gothic';
     }
 
     .row {
 text-align: center;
 margin: 5px ;
+font-family:'Franklin Gothic';
 
     }
     .column {
@@ -113,7 +127,7 @@ margin: 5px ;
     
         * {box-sizing:border-box}
 
-        /* Slideshow container */
+       
         .slideshow-container {
           max-width: 1000px;
           position: center;
@@ -123,12 +137,11 @@ margin: 5px ;
           
         }
         
-        /* Hide the images by default */
+       
         .mySlides {
           display: none;
         }
         
-        /* Next & previous buttons */
         .prev, .next {
           cursor: pointer;
           position: absolute;
@@ -138,13 +151,14 @@ margin: 5px ;
           padding: 16px;
           color: black;
           font-weight: bold;
+          font-family:'Franklin Gothic';
           font-size: 18px;
           transition: 0.6s ease;
           border-radius: 0 3px 3px 0;
           user-select: none;
         }
         
-        /* Position the "next button" to the right */
+       
 
         .next {
           right: 0;
@@ -158,7 +172,7 @@ margin: 5px ;
           border-radius: 20px ;
         }
         
-        /* Caption text */
+        
         .text {
           color: #f2f2f2;
           font-size: 15px;
@@ -167,11 +181,12 @@ margin: 5px ;
           bottom: 8px;
           width: 100%;
           text-align: center;
+          font-family:'Franklin Gothic';
         }
         
         
         
-        /* The dots/bullets/indicators */
+        /
         .dot {
           cursor: pointer;
           height: 15px;
@@ -187,7 +202,7 @@ margin: 5px ;
           background-color: #717171;
         }
         
-        /* Fading animation */
+        
         .fade {
           animation-name: fade;
           animation-duration: 1.5s;
@@ -213,6 +228,7 @@ margin: 5px ;
           font-size: 20px;
           padding: 5px 10px;
           text-align: center;
+          font-family:'Franklin Gothic';
           text-decoration: none;
           -webkit-animation: glowing 1500ms infinite;
           display:flex;
@@ -241,6 +257,7 @@ margin: 5px ;
           padding: 15px; 
           border-radius: 10px;
           font-size: 18px; 
+          font-family:'Franklin Gothic';
         }
         
         #myBtn:hover {
