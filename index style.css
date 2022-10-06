@@ -186,7 +186,7 @@ font-family:'Franklin Gothic';
         
         
         
-        /
+        
         .dot {
           cursor: pointer;
           height: 15px;
@@ -262,4 +262,14 @@ font-family:'Franklin Gothic';
         
         #myBtn:hover {
           background-color: orange; 
+        }
+
+        .container2 {
+
+          font-family:'Franklin Gothic';
+          padding-left: 5px;
+          padding-right: 5px;
+          background-color: orange;
+
+          
         }
