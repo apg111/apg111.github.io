@@ -163,8 +163,8 @@ font-family:'Franklin Gothic';
           transition: 0.6s ease;
           border-radius: 0 3px 3px 0;
           user-select: none;
-          margin-left: 170px;
-          margin-right: 170px;
+          margin-left: 113px;
+          margin-right: 115px;
           margin-bottom: 0px;
         
         }
@@ -173,8 +173,9 @@ font-family:'Franklin Gothic';
 
         .next {
           right: 0;
-          border-radius: 20px ;
-          background-color: rgba(255, 160, 122, 0.405) ;
+          border-radius: 10px ;
+          background-color: rgba(255, 160, 122, 0.405);
+          margin-top: 20px;
         
         
         }
@@ -183,9 +184,11 @@ font-family:'Franklin Gothic';
         .prev {
           left: 0;
           
-          border-radius: 20px ;
+          border-radius: 10px ;
 
           background-color: rgba(255, 160, 122, 0.405) ;
+          margin-top: 20px;
+        
           
         
         }
